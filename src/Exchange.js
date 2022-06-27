@@ -12,7 +12,6 @@ const Exchange = () => {
             <td>Email</td>
           </th>
           <tr>
-            <td>Matang</td>
             <td>Hirapara</td>
             <td>matang.hirapara12@gmail.com</td>
           </tr>
