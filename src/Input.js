@@ -12,7 +12,6 @@ const Input = () => {
             <option>Banglore</option>
             <option>Delhi</option>
             <option>Nagpur</option>
-            <option>Hydrabad</option>
           </select>
         </div>
       </div>
