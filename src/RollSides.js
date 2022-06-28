@@ -13,11 +13,7 @@ class RollSides extends Component  {
     this.state = {
       die1 : 'one',
       die2: 'three',
-<<<<<<< HEAD
       rolling : false
-=======
-      rolling : false
->>>>>>> parent of 5b9d046 (change: new changes)
     }
     this.roll = this.roll.bind(this)
   }
