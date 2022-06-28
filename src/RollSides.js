@@ -13,7 +13,7 @@ class RollSides extends Component  {
     this.state = {
       die1 : 'one',
       die2: 'three',
-      rolling : false
+      
     }
     this.roll = this.roll.bind(this)
   }
