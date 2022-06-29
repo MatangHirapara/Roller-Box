@@ -18,7 +18,7 @@ const Addlist = () => {
   const onsubmit = async e => {
     e.preventDefault();
     await axios.post("http://localhost:3002/users", user)
-    navigate.push("/")
+    navigate("/")
   }
   return (
     <>
