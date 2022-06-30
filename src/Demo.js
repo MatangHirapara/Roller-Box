@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import "./demo.css"
 
 const Demo = () => {
   const navigate = useNavigate();
@@ -22,12 +21,12 @@ const Demo = () => {
     <>
       <div>
         <table style={{width: "100%"}}>
-          <tr>
-            <th>id</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-          </tr>
+          <th>
+            <td>id</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Phone</td>
+          </th>
           {users.map((user) => {
             return (          
               <tr>
