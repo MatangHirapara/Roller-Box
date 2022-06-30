@@ -48,7 +48,7 @@ class RollSides extends Component  {
                 onClick={this.roll}>
           {this.state.rolling ? 'Rolling' : 'Roll Dice!'}
         </button>
-        <button>checkBox</button>
+        <button>checkBox</button> 
       </div>
     )
   }
